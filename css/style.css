@@ -113,11 +113,15 @@ line-height: 140px;
     color: white;
 }
 .footer-container{
-    width: 80%;
+    width: 70%;
     margin:auto;
 }
 .col-footer{
     float:left;
-    width:15%;
-    /* margin: 0 auto; */
+    width:20%;
+    margin: 0 auto;
+}
+.centra{
+    margin: 0 auto;
+    width: 100%;
 }
