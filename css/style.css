@@ -104,5 +104,20 @@ line-height: 140px;
 }
 .team-description{
     width:60%;
+    margin: auto;
     background-color: lightgrey;
+}
+/* FOOTER */
+.back-black{
+    background-color: black;
+    color: white;
+}
+.footer-container{
+    width: 80%;
+    margin:auto;
+}
+.col-footer{
+    float:left;
+    width:15%;
+    /* margin: 0 auto; */
 }
