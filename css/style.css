@@ -68,9 +68,15 @@ img{
 .full-width{
     width: 100%;
 }
-
+.row{
+    width: 100%;
+    padding:50px 0;
+}
 .border-gray{
     border:2px solid lightgray;
+}
+.back-lightblue{
+    background-color: #b4d0e7;
 }
 /* BUTTON */
 .button{
@@ -130,9 +136,8 @@ padding-left: 20px;
 }
 
 /* MAIN */
-.back-lightblue{
+.spacing-top{
     padding-top:110px;
-    background-color: #b4d0e7;
 }
 .check-box{
     padding: 30px 0;
@@ -187,16 +192,31 @@ padding-left: 20px;
 .plan-footer h4{
     padding-top: 20px;
 }
-
+/* OPERATION */
+.row-text p{
+    padding: 30 px 0;
+}
 /* TEAM */
 .col-team-img{
     width:10%;
 }
+.col-team-img img{
+    width: 50%;
+    padding: 5%;
+}
+
 .team-description{
-    width:60%;
-    margin: auto;
+    width:50%;
+
     background-color: lightgrey;
 }
+.team-description img{
+    width:20%;
+}
+.discover{
+    padding-top: 20px;
+}
+
 /* FOOTER */
 .back-black{
     background-color: black;
