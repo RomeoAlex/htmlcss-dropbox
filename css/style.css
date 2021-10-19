@@ -216,7 +216,16 @@ padding-left: 20px;
 .discover{
     padding-top: 20px;
 }
+/* FAQ-BOX */
+.faq-box li{
+    list-style: none;
+    border-top: 1px solid black;
+    padding: 20px 0;
+}
+.faq-box li:last-child{
 
+    border-bottom: 1px solid black;
+}
 /* FOOTER */
 .back-black{
     background-color: black;
