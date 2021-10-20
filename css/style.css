@@ -194,27 +194,66 @@ padding-left: 20px;
 }
 /* OPERATION */
 .row-text p{
-    padding: 30 px 0;
+    padding-top: 20px;
 }
 /* TEAM */
 .col-team-img{
-    width:10%;
+    width:15%;
+}
+.team-img{
+    width: 100%;
+    padding: 30%;
+    text-align: center;
 }
 .col-team-img img{
-    width: 50%;
-    padding: 5%;
+    width: 60%;
+    /* padding: 5%; */
+    filter: invert(1);
 }
 
 .team-description{
-    width:50%;
-
+    width:40%;
     background-color: lightgrey;
 }
 .team-description img{
-    width:20%;
+    width:10%;
 }
+
+.designit{
+    background-color: #a2d39b;
+}
+.u-florida{
+    background-color: #0093ce;
+    /* test */
+   /* background-image: url("img/university_of_florida.svg");
+    background-position: center;
+    background-size: 50%;
+    
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100px;
+} */}
+.u-arizona{
+    background-color: #61082b;
+}
+.topps{
+    background-color: #ff1c1c;
+}
+.world-b{
+    background-color: #d5001f;
+}
+.lonely{
+    background-color: #0d2481;
+}
+.hearst{
+    background-color: #b4d0e7;
+}
+.clear-channel{
+    background-color: #ffd830;
+}
+/* DISCOVER */
 .discover{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 /* FAQ-BOX */
 .faq-box li{
