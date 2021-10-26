@@ -256,12 +256,19 @@ padding-left: 20px;
     padding-top: 30px;
 }
 /* FAQ-BOX */
-.faq-box li{
-    list-style: none;
+.ask{
     border-top: 1px solid black;
     padding: 20px 0;
 }
-.faq-box li:last-child{
+.ask:hover .hidden-answer{
+    display: block;
+    /* transition-duration: 1.5s; */
+}
+
+.hidden-answer{
+    display: none;
+}
+.faq-ask:last-child{
 
     border-bottom: 1px solid black;
 }
